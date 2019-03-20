@@ -34,7 +34,7 @@ body{
 
 /* shouye */
 .shouye{
-  width: 80%;
+  width: 1000px;
   height: 477px;
   background: rgb(255, 255, 255,0.3);
   margin-left: 230px;
@@ -78,7 +78,7 @@ margin-left: 670px;
 /* work*/
 
 .work{
-  width: 80%;
+  width: 1000px;
   height: 627px;
     background:rgb(255, 255, 255,0.4);
     margin-left: 230px;
@@ -142,7 +142,7 @@ margin-left: 670px;
 
 .shenghuo{
   display: none;
-  width: 80%;
+  width: 1000px;
   height: 627px;
     background:rgb(255, 255, 255,0.4);
     margin-left: 230px;
@@ -167,7 +167,7 @@ overflow: hidden;
 
 
 .shenghuo-content{
-  width: 60%;
+  width: 50%;
 height: 188px;
 
 float: left;
