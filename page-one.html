@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="css/page-one.css">
+    <link rel="stylesheet" href="jsmodern.min.css">
+    <script src="video/jquery.min.js"></script>
+    <script src="video/jsmodern.min.js"></script>
+    <link rel="stylesheet" href="video/jsmodern.min.css">
+    <title>Document</title>
+ 
+</head>
+<body>
+
+
+
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+       <ul class="nav">
+           <li class="home" ><span >首页/homepage ...</span></li>
+           <li class="working"><span >工作/work ...</span></li>
+           <li class="hobby"><span >爱好/hobby...</span></li>
+       
+       </ul>
+    </div>
+    <script>
+        $(".nav>.home").click(function(){
+            $(".shouye").fadeIn().siblings().fadeOut();
+            $(".home").addClass('active').siblings().removeClass('active');
+        })
+        $(".nav>.working").click(function(){
+            $(".work").fadeIn().siblings().fadeOut();
+            $(".working").addClass('active').siblings().removeClass('active');
+        })
+        $(".nav>.hobby").click(function(){
+            $(".shenghuo").fadeIn().siblings().fadeOut();
+            $(".hobby").addClass('active').siblings().removeClass('active');
+        })
+  
+    
+    </script>
+    
+<div class="main">
+        <div class="shouye">
+       
+                <div id="video" >
+                        <video  >
+                    <source src="video/cecl.mp4">
+                     </video>     
+               </div>
+    
+               <div class="information">
+    
+                <p>>>>Name:张可欣 </p>
+                <p>>>>school:武汉工程大学</p>
+                <p>>>>major:软件工程</p>
+             <p>>>>language:中文（普通话）/英语/韩语</p>
+             <p>>>>tel:19910522</p>
+             <p>>>>email：19910522@qq.com</p>
+    
+    
+             <p class="depart-one">>>>点击左边视频了解更多哦 </p>
+             <p class="depart" >>>>虽然看完了以后你会发现</p>
+             <p class="depart" >>>>这个视频和我本人,并没什么关系</p>
+    
+    
+                </div>
+              
+    <script>
+    
+        $(function () {
+            jsModern.video("#video");})
+           
+    </script>
+    
+    
+    
+    </div>
+
+<div class="work">
+       
+            <div class="lanren">
+                    <div class="flip-3d">
+                         <figure>
+                            <img src="images/01.png" alt="12346">
+                            <figcaption><a href="https://susu.onlysuho.top/index.html">homework01</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="flip-3d">
+                        <figure>
+                            <img src="images/02.png" alt="13165cBJG">
+                            <figcaption><a href="https://susu.onlysuho.top/html/homework02.html">homework02</a></figcaption>
+                          </figure>
+                    </div>
+                    <div class="flip-3d">
+                        <figure>
+                            <img src="images/03.png" alt="">
+                            <figcaption><a href="https://susu.onlysuho.top/html/homework03.html">homework03</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="flip-3d">
+                        <figure>
+                            <img src="images/04.png" alt="">
+                            <figcaption><a href="https://susu.onlysuho.top/html/homework04.html">homework04</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="flip-3d">
+                        <figure>
+                            <img src="images/05.png" alt="">
+                            <figcaption><a href="https://susu.onlysuho.top/html/homework05.html">homework05</a></figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="lanren">
+                        <div class="flip-3d">
+                             <figure>
+                                <img src="images/06.png" alt="12346">
+                                <figcaption><a href="https://susu.onlysuho.top/html/homework06.html">homework06</a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="flip-3d">
+                            <figure>
+                                <img src="images/07.png" alt="13165cBJG">
+                                <figcaption><a href="https://susu.onlysuho.top/html/homework08.html">homework07</a></figcaption>
+                              </figure>
+                        </div>
+                        <div class="flip-3d">
+                            <figure>
+                                <img src="images/08.png" alt="">
+                                <figcaption><a href="https://susu.onlysuho.top/html/homework09.html">homework08</a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="flip-3d">
+                            <figure>
+                                <img src="images/09.png" alt="">
+                                <figcaption><a href="https://susu.onlysuho.top/html/suho02.html">homework09</a></figcaption>
+                            </figure>
+                        </div>
+                        <div class="flip-3d">
+                            <figure>
+                                <img src="images/10.png" alt="">
+                                <figcaption><a href="https://susu.onlysuho.top/html/suho01.html">homework10</a></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+        </div>
+
+
+<div class="shenghuo">
+<div class="shenghuo-little">
+        <img src="images/21.png" alt="">
+    <div class="shenghuo-content">
+       <p>在一回首间，才忽然发现，原来，我一生的种种努力，不过只为了周遭的人对我满意而已。为了搏得他人的称许与微笑，我战战兢兢地将自己套入所有的模式所有的桎梏。走到途中才忽然发现，我只剩下一副模糊的面目，和一条不能回头的路。
+
+       </p>
+
+    </div>
+
+</div>
+
+
+<div class="shenghuo-little">
+        <img src="images/shouye.png" alt="">
+        <div class="shenghuo-content">
+           <p>在一回首间，才忽然发现，原来，我一生的种种努力，不过只为了周遭的人对我满意而已。为了搏得他人的称许与微笑，我战战兢兢地将自己套入所有的模式所有的桎梏。走到途中才忽然发现，我只剩下一副模糊的面目，和一条不能回头的路。
+    
+           </p>
+    
+    </div>
+
+        </div>
+
+        <div class="shenghuo-little">
+                <img src="images/21.png" alt="">
+            <div class="shenghuo-content">
+               <p>在一回首间，才忽然发现，原来，我一生的种种努力，不过只为了周遭的人对我满意而已。为了搏得他人的称许与微笑，我战战兢兢地将自己套入所有的模式所有的桎梏。走到途中才忽然发现，我只剩下一副模糊的面目，和一条不能回头的路。
+        
+               </p>
+        
+            </div>
+        
+        </div>
+
+        
+    
+
+
+</div>
+
+
+    <!-- shouye -->
+
+
+
+
+
+<!-- work -->
+
+   
+</body>
+</html>

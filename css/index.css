@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    body,html{
+        height: 100%;
+      }
+
+      .all{
+        background:rgb(122, 159, 214,0.1);
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 90%;
+         margin-top: 5%;
+         margin-bottom: 5%;
+        text-align: center;
+        position: relative;
+        display: flex;
+      flex-direction: column;
+    }
+   
+   #div_timer{
+                  display: block;
+                  height: 250px;
+                  width: 250px;
+                  font-size: 50px;
+                  text-align: center;
+                  line-height: 250px;
+            border-bottom-left-radius: 175px;
+            border-bottom-right-radius: 175px;
+            border-top-left-radius:175px;
+            border-top-right-radius: 175px;
+                  background: rgb(37, 38, 95,0.5);
+                  z-index: 2;
+                  color: white;
+                  box-shadow: 0px 0px 100px rgb(83, 75, 197);
+              position: absolute;
+              left: 50%;
+              top: 30%;
+              margin-left: -125px;
+              margin-top: -125px;
+          
+              }
+  
+  
+              #div_day{
+                  position: absolute;
+                  text-align: center;
+                  left: 50%;
+                  bottom: 60%;
+                margin-left: -100px;
+                width: 200px;
+                  font-size: 20px;
+                  font-weight: bold;
+                  z-index: 2;
+                  color: white;
+                 
+              }
+          
+              .first{
+                 width: 280px;
+                  position: absolute;
+                  top:70%;
+                 left: 50%;
+                 margin-left: -140px;
+                  float: left;
+                  color: white;
+                  font-size: 18px;
+                  text-shadow: 0px 0px 21px rgb(122, 159, 214);   
+                  text-align: center;
+            
+              }
+  
+              .first p{
+                  margin-bottom: 10px;
+              }
+  
+              .first button{
+                  margin-top: 10px;
+                  width: 160px;
+                  height: 40px;
+                  font-size: 15px;
+                  color: white;
+                  background: rgb(83, 75, 197,0.2);
+                  border: 1px solid white;
+              }
+  
+              .first button:hover{
+                  background: rgb(83, 75, 197);
+              }
+     
+          

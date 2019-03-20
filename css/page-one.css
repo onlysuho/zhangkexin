@@ -1,0 +1,179 @@
+*{margin: 0;padding: 0;}
+  
+body{
+    background: url("../images/back.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:0% 0%;
+    background-size: cover;
+}
+
+.active{
+   border-right: 3px solid white;
+}
+
+.sidebar{
+  height: 380px;
+    width: 200px;
+   border-right: 1px solid white;
+   position: fixed;
+   top: 50px;
+}
+
+.sidebar .nav li{
+    list-style: none;
+    line-height: 60px;
+    height: 60px;
+    text-align: right;   
+    margin-bottom: 100px;
+}
+
+.sidebar .nav li span{
+    color: white;
+}
+
+/* shouye */
+.shouye{
+  width: 80%;
+  height: 477px;
+  background: rgb(255, 255, 255,0.3);
+  margin-left: 230px;
+  margin-top: 50px;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-top: 45px;
+}
+
+
+#video{
+  width: 632px;
+  height: 400px;
+  float: left;
+}
+
+.information{
+  margin-top: 30px;
+margin-left: 670px;
+  width: 340px;
+  height: 350px;
+}
+.information p{
+    font-size: 16px;
+    color:rgb(246, 243, 252);
+    margin-top: 16px;
+    text-shadow: 5px 5px 11px #1d1c1b;
+}
+
+.information .depart{
+  font-weight: bold;
+}
+
+.information .depart-one{
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+
+
+/* work*/
+
+.work{
+  width: 80%;
+  height: 627px;
+    background:rgb(255, 255, 255,0.4);
+    margin-left: 230px;
+    margin-top: 50px;
+    display: none;
+    margin-bottom: 50px;
+}
+
+
+.lanren{width:80%;overflow:hidden;margin:0 auto;}
+.flip-3d { 
+  perspective: 1200px; width: 20%;   float: left;  
+}
+.flip-3d figure { 
+  position: relative; 
+  transform-style: preserve-3d; 
+  transition: 1s transform;
+  font-size: 1.0rem;
+  margin:25px;
+}
+.flip-3d figure img { 
+  width:100%; height:200px;  opacity: 0.9; 
+}
+.flip-3d figure figcaption { 
+  position: absolute; 
+  width: 100%; height: 50%; top: 0; 
+  transform: rotateY(.5turn) translateZ(1px); 
+  background: rgba(255,255,255,1); 
+  text-align: center; 
+  padding-top: 58%; 
+  opacity: 0.6; 
+  transition: 1s .5s opacity; 
+}
+.flip-3d:hover figure { transform: rotateY(.5turn); }
+.flip-3d:hover figure figcaption { opacity: 1; }
+.flip-3d figure:after { 
+  content: " "; display: block;
+  height: 4vw; width: 100%; 
+  transform: rotateX(90deg); 
+  background-image:radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%); 
+}
+@media screen and (max-width: 800px) { 
+  #flip-3d { perspective-origin: center top; }
+    div#flip-3d figure { 
+    float: none; 
+    width: 50%; 
+    margin: 0 auto; 
+    margin-bottom: 12vw; 
+  }
+ .flip-3d figure figcaption{font-size: 0.8rem;}
+    div#flip-3d figure:last-child { display: none; }
+}
+
+.flip-3d a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* 生活 */
+
+.shenghuo{
+  display: none;
+  width: 80%;
+  height: 627px;
+    background:rgb(255, 255, 255,0.4);
+    margin-left: 230px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   padding-top: 20px;
+}
+
+.shenghuo-little{
+width:95%;
+height: 188px;
+background:rgb(246, 243, 252,0.4);
+margin-left: 20px;
+margin-bottom: 20px;
+overflow: hidden;
+}
+
+.shenghuo-little img{
+  float: left;
+}
+
+
+
+.shenghuo-content{
+  width: 60%;
+height: 188px;
+
+float: left;
+margin-left: 80px;
+}
+
+.shenghuo-little p{
+margin-top: 20px;
+}
